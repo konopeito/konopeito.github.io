@@ -4,19 +4,34 @@ title: About Me
 permalink: /about/
 ---
 
-## About Me
-Hi, I’m Julia , an aspiring game developer focused on interactive design and technical implementation.
+# About Me 🎀
 
-## Skills
-- Unity / C#
-- Digital Art & Design
-- WebGL deployment
-- UI/UX for games
-- Git & GitHub workflows
+Hi, I’m **Julia** — an aspiring game developer focused on interactive design, technical implementation, and creating playful experiences.
 
-## Experience
-- Built class projects in gameplay systems, UI, and performance optimization.
-- Collaborated using version control and iterative playtesting.
+<div class="kawaii-card">
+  <h2>✨ Skills</h2>
+  <ul>
+    <li>Unity / C#</li>
+    <li>Digital Art & Design</li>
+    <li>WebGL Deployment</li>
+    <li>UI/UX for Games</li>
+    <li>Git & GitHub Workflows</li>
+  </ul>
+</div>
 
-## Passion
-I’m passionate about creating games that blend strong mechanics with meaningful player experiences.
+<div class="kawaii-card">
+  <h2>🌷 Experience</h2>
+  <ul>
+    <li>Built class projects in gameplay systems, UI, and performance optimization.</li>
+    <li>Collaborated using version control and iterative playtesting.</li>
+    <li>Documented project features, controls, and technical decisions.</li>
+  </ul>
+</div>
+
+<div class="kawaii-card">
+  <h2>💗 Passion</h2>
+  <p>
+    I’m passionate about making games that blend strong mechanics, cute visual identity,
+    and meaningful player experiences.
+  </p>
+</div>
