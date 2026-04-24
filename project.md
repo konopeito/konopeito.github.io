@@ -40,5 +40,4 @@ permalink: /project/
 <div class="kawaii-card">
   <h2>🚀 Build</h2>
   <p>Play the WebGL build below (or <a href="/webgl/index.html">open in new tab</a>).</p>
-  <iframe src="/webgl/index.html" width="960" height="600" frameborder="0" allowfullscreen></iframe>
 </div>
