@@ -117,3 +117,22 @@ body::before {
   font-size: 18px;
   pointer-events: none;
 }
+.kawaii-card {
+  background: #fff;
+  border: 2px solid #ffd0e7;
+  border-radius: 18px;
+  padding: 16px 18px;
+  margin: 16px 0;
+  box-shadow: 0 6px 14px rgba(255, 120, 181, 0.12);
+}
+
+.kawaii-card h2 {
+  margin-top: 0;
+}
+
+@media (max-width: 900px) {
+  iframe {
+    width: 100%;
+    height: 420px;
+  }
+}
