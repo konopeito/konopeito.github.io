@@ -14,22 +14,25 @@
   --kawaii-soft: #ffe0f0;
 }
 
-html, body {
-  background: linear-gradient(180deg, #fff0f8 0%, #fff8fc 100%);
+html,
+body {
+  background: linear-gradient(180deg, #fff0f8 0%, #fff8fc 100%) !important;
   color: var(--kawaii-text);
   font-family: "Nunito", "Quicksand", "Segoe UI", sans-serif;
 }
 
 /* Header / nav */
 .site-header {
-  background: #ffd6eb;
-  border-top: 6px solid var(--kawaii-pink);
-  border-bottom: 2px solid #ffc2e1;
+  background: #ffd6eb !important;
+  border-top: 6px solid var(--kawaii-pink) !important;
+  border-bottom: 2px solid #ffc2e1 !important;
 }
 
-.site-title, .site-title:visited {
+.site-title,
+.site-title:visited {
   color: var(--kawaii-pink-dark) !important;
   font-weight: 800;
+  letter-spacing: 0.3px;
 }
 
 .site-nav .page-link {
@@ -42,30 +45,41 @@ html, body {
   text-decoration: none;
 }
 
-/* Main content card look */
+/* Main content */
 .page-content .wrapper {
-  background: var(--kawaii-card);
-  border: 2px solid #ffd0e7;
+  background: var(--kawaii-card) !important;
+  border: 2px solid #ffd0e7 !important;
   border-radius: 20px;
   padding: 28px;
   margin-top: 24px;
   box-shadow: 0 10px 24px rgba(255, 120, 181, 0.15);
 }
 
-/* Headings */
-h1, h2, h3 {
+/* Typography */
+h1,
+h2,
+h3 {
   color: var(--kawaii-pink-dark);
 }
 
-/* Links */
+h1::after,
+h2::after {
+  content: " ✨";
+}
+
 a {
   color: var(--kawaii-pink-dark);
 }
+
 a:hover {
   color: #b93e7f;
 }
 
-/* Your kawaii cards */
+ul li::marker {
+  color: var(--kawaii-pink);
+}
+
+/* Kawaii cards used in markdown pages */
 .kawaii-card {
   background: #fff;
   border: 2px solid #ffd0e7;
@@ -74,10 +88,12 @@ a:hover {
   margin: 16px 0;
   box-shadow: 0 6px 14px rgba(255, 120, 181, 0.12);
 }
+
 .kawaii-card h2 {
   margin-top: 0;
 }
 
+/* WebGL frame */
 iframe {
   border: 3px solid #ffc2e1;
   border-radius: 16px;
@@ -85,7 +101,30 @@ iframe {
   max-width: 100%;
 }
 
+/* Footer */
+.site-footer {
+  border-top: 2px dashed #ffc2e1;
+  background: #fff2f9;
+}
+
+/* Cute accent */
+body::before {
+  content: "✿  ♡  ✧  ✿  ♡  ✧";
+  position: fixed;
+  top: 10px;
+  right: 18px;
+  color: #ff9ccc;
+  opacity: 0.45;
+  font-size: 18px;
+  pointer-events: none;
+}
+
+/* Mobile */
 @media (max-width: 900px) {
+  .page-content .wrapper {
+    padding: 18px;
+  }
+
   iframe {
     width: 100%;
     height: 420px;
