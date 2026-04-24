@@ -4,24 +4,41 @@ title: Project
 permalink: /project/
 ---
 
-## Current Project: [Project Name]
+# Current Project 🎮
 
-### Overview
+## [Project Name]
 
+<div class="kawaii-card">
+  <h2>🌟 Overview</h2>
+  <p>
+    <strong>Genre:</strong> [Insert genre]<br>
+    <strong>Concept:</strong> [1–2 sentence summary of my game]<br>
+    <strong>Goal:</strong> [What experience should players have?]
+  </p>
+</div>
 
-### My Role
-- Gameplay programming
-- UI implementation
-- Build/deployment pipeline
+<div class="kawaii-card">
+  <h2>🛠 My Role</h2>
+  <ul>
+    <li>Gameplay programming</li>
+    <li>UI implementation</li>
+    <li>Build/deployment pipeline</li>
+  </ul>
+</div>
 
-### Documentation
-- Design goals
-- Controls
-- Features list
-- Known issues
-- Future improvements
+<div class="kawaii-card">
+  <h2>📝 Documentation</h2>
+  <ul>
+    <li><strong>Design Goals:</strong> [What you wanted to achieve]</li>
+    <li><strong>Controls:</strong> [Keyboard/mouse/controller controls]</li>
+    <li><strong>Features:</strong> [Core mechanics/features]</li>
+    <li><strong>Known Issues:</strong> [Any current bugs/limitations]</li>
+    <li><strong>Future Improvements:</strong> [Planned polish/features]</li>
+  </ul>
+</div>
 
-### Build
-Play the WebGL build below (or [open in new tab](/webgl/index.html)).
-
-<iframe src="/webgl/index.html" width="960" height="600" frameborder="0" allowfullscreen></iframe>
+<div class="kawaii-card">
+  <h2>🚀 Build</h2>
+  <p>Play the WebGL build below (or <a href="/webgl/index.html">open in new tab</a>).</p>
+  <iframe src="/webgl/index.html" width="960" height="600" frameborder="0" allowfullscreen></iframe>
+</div>
