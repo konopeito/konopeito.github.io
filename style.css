@@ -1,0 +1,119 @@
+---
+---
+
+@import "minima";
+
+/* ===== Kawaii Pink Theme ===== */
+:root {
+  --kawaii-bg: #fff5fb;
+  --kawaii-card: #ffffff;
+  --kawaii-pink: #ff78b5;
+  --kawaii-pink-dark: #e7549b;
+  --kawaii-lavender: #caa6ff;
+  --kawaii-text: #4a3556;
+  --kawaii-soft: #ffe0f0;
+}
+
+html, body {
+  background: linear-gradient(180deg, #fff0f8 0%, #fff8fc 100%);
+  color: var(--kawaii-text);
+  font-family: "Nunito", "Quicksand", "Segoe UI", sans-serif;
+}
+
+/* Header / nav */
+.site-header {
+  background: #ffd6eb;
+  border-top: 6px solid var(--kawaii-pink);
+  border-bottom: 2px solid #ffc2e1;
+}
+
+.site-title, .site-title:visited {
+  color: var(--kawaii-pink-dark) !important;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+}
+
+.site-nav .page-link {
+  color: var(--kawaii-pink-dark) !important;
+  font-weight: 700;
+  margin-right: 14px;
+}
+
+.site-nav .page-link:hover {
+  color: #b93e7f !important;
+  text-decoration: none;
+}
+
+/* Main content card look */
+.page-content .wrapper {
+  background: var(--kawaii-card);
+  border: 2px solid #ffd0e7;
+  border-radius: 20px;
+  padding: 28px;
+  margin-top: 24px;
+  box-shadow: 0 10px 24px rgba(255, 120, 181, 0.15);
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: var(--kawaii-pink-dark);
+}
+
+h1::after, h2::after {
+  content: " ✨";
+}
+
+/* Links */
+a {
+  color: var(--kawaii-pink-dark);
+  text-decoration-thickness: 2px;
+}
+
+a:hover {
+  color: #b93e7f;
+}
+
+/* Lists */
+ul li::marker {
+  color: var(--kawaii-pink);
+}
+
+/* Buttons (if any) */
+.button, button, input[type="submit"] {
+  background: var(--kawaii-pink);
+  color: white;
+  border: none;
+  border-radius: 999px;
+  padding: 10px 16px;
+  font-weight: 700;
+}
+
+.button:hover, button:hover, input[type="submit"]:hover {
+  background: var(--kawaii-pink-dark);
+}
+
+/* Iframe/WebGL container feel */
+iframe {
+  border: 3px solid #ffc2e1;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(231, 84, 155, 0.18);
+  max-width: 100%;
+}
+
+/* Footer */
+.site-footer {
+  border-top: 2px dashed #ffc2e1;
+  background: #fff2f9;
+}
+
+/* Optional cute sparkle background accents */
+body::before {
+  content: "✿  ♡  ✧  ✿  ♡  ✧";
+  position: fixed;
+  top: 10px;
+  right: 18px;
+  color: #ff9ccc;
+  opacity: 0.45;
+  font-size: 18px;
+  pointer-events: none;
+}
